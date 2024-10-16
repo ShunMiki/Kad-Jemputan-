@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Invitation Card</title>
+    <title>Kad Jemputan</title>
     
     <!-- Link to Font Awesome CSS for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
@@ -174,7 +174,7 @@
 </head>
 <body>
     <div class="title-container" onclick="showInvitation()">
-        <h1>Lunch Ceremony</h1>
+        <h1>Majlis Jamuan Makan</h1>
         <p>Sunday 24.11.24</p>
     </div>
 
@@ -183,15 +183,13 @@
             <h1>Invitation</h1>
         </div>
         <div class="card-body">
-            <p><strong>Jeffery Salim bin Abdul Aziz</strong></p>
-            <p>&</p>
-            <p><strong>Norinah binti Bujari</strong></p>
-            <p>With full gratitude, we invite you and your family to attend our ceremony.</p>
-            <p><strong>Venue:</strong></p>
+            <p><strong>Muhammad Helmyreza bin Jeffery Salim</strong></p>
+            <p>Dengan penuh kesyukuran, kami mempersilakan Tuan | Puan seisi keluarga hadir ke kenduri kami.</p>
+            <p><strong>Tempat:</strong></p>
             <p>No. 3, Jalan Prima 2/4, Taman Puchong Prima, 47150 Puchong, Selangor</p>
-            <p><strong>Date:</strong></p>
+            <p><strong>Tarikh:</strong></p>
             <p>24 November 2024</p>
-            <p><strong>Time:</strong></p>
+            <p><strong>Masa:</strong></p>
             <p>12:00 PM</p>
             <div class="countdown" id="countdown"></div> <!-- Countdown timer -->
             <a href="#" class="save-date-btn" id="saveDateBtn">Save the Date</a> <!-- Moved the button here -->
@@ -208,7 +206,7 @@
                     <i class="fab fa-whatsapp"></i>
                 </a>
             </div>
-            <p>Created by Helmy</p>
+            <p>Created by 三木春</p>
         </div>
     </div>
 
@@ -240,8 +238,8 @@
                 const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                 countdownElement.innerHTML = `
-                    <strong>Countdown to the Event:</strong><br>
-                    ${days}d ${hours}h ${minutes}m ${seconds}s
+                    <strong>Countdown:</strong><br>
+                    ${days} Hari ${hours} Jam ${minutes} Minit ${seconds} Saat
                 `;
 
                 if (distance < 0) {
